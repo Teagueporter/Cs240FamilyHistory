@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        app:key="storyLine"
+        app:title="@string/display_family_lines"/>
+    <SwitchPreference app:key="treeLines"
+    app:title="Display Family Tree Lines" >
+    </SwitchPreference>
+    <SwitchPreference
+        app:key="spouseLines"
+        app:summary="Does this work"
+        app:title="Display Spouse Lines"/>
+    <SwitchPreference
+        app:key="fatherSide"
+        app:title="Filter by Father's Side"/>
+    <SwitchPreference
+        app:key="motherSide"
+        app:title="Filter by Mother's Side"/>
+    <SwitchPreference
+        app:key="maleEvents"
+        app:title="Filter Male by Events"/>
+    <SwitchPreference
+        app:key="femaleEvents"
+        app:title="Filter by Female Events"/>
+    <Preference
+        android:layout="@layout/login"
+        android:key="logoutButton" />
+</PreferenceScreen>
+

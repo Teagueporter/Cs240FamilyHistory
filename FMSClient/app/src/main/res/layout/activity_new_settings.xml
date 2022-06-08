@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="269dp"
+            android:layout_height="50dp"
+            android:text="@string/display_story_lines"
+            android:textAlignment="center" />
+
+        <Switch
+            android:id="@+id/storyLines"
+            android:layout_width="115dp"
+            android:layout_height="75dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="269dp"
+            android:layout_height="50dp"
+            android:text="@string/display_family_lines"
+            android:textAlignment="center" />
+
+        <Switch
+            android:id="@+id/familyLines"
+            android:layout_width="115dp"
+            android:layout_height="75dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="269dp"
+            android:layout_height="50dp"
+            android:text="@string/display_spouse_lines"
+            android:textAlignment="center" />
+
+        <Switch
+            android:id="@+id/spouseLines"
+            android:layout_width="114dp"
+            android:layout_height="75dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="269dp"
+            android:layout_height="50dp"
+            android:text="@string/filter_by_father_s_side"
+            android:textAlignment="center" />
+
+        <Switch
+            android:id="@+id/fatherSide"
+            android:layout_width="112dp"
+            android:layout_height="75dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="269dp"
+            android:layout_height="50dp"
+            android:text="@string/filter_by_mother_s_side"
+            android:textAlignment="center" />
+
+        <Switch
+            android:id="@+id/motherSide"
+            android:layout_width="115dp"
+            android:layout_height="75dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="269dp"
+            android:layout_height="50dp"
+            android:text="@string/filter_by_male_events"
+            android:textAlignment="center" />
+
+        <Switch
+            android:id="@+id/maleEvents"
+            android:layout_width="115dp"
+            android:layout_height="75dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="269dp"
+            android:layout_height="50dp"
+            android:text="@string/filter_by_female_events"
+            android:textAlignment="center" />
+
+        <Switch
+            android:id="@+id/femaleEvents"
+            android:layout_width="114dp"
+            android:layout_height="75dp" />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:weightSum="10"
+        android:baselineAligned="false" android:orientation="horizontal">
+
+        <Button
+            android:text="@string/logout"
+            android:layout_width="fill_parent"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:id="@+id/logoutButton"
+            android:layout_gravity="left" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
